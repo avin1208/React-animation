@@ -1,0 +1,40 @@
+
+.hot-produtcs{
+    margin-top: 25px;
+}
+.title{
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+    
+}
+
+h2{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.products-main{
+    display: flex;
+   text-align: center;
+   margin-left: 200px;
+   margin-top: 20px;
+}
+
+.produtcs{
+    margin-bottom: 10px;
+    height: 100%;
+    overflow: hidden;
+}
+
+ .deal{
+    height: 400px;
+    width: 750px;
+    
+}
+
+.produtcss{
+    margin-left: 10px;
+}
