@@ -8,15 +8,25 @@ import Content from '../../layouts/Content/content';
 
 import HotProducts from '../../layouts/HotProducts/hotproducts';
 
+import Explore from '../../layouts/Explore/explore';
+
+import './home.css';
+
+import AboutUs from '../../layouts/About Us/aboutus';
+
+import Footer from '../../layouts/Footer/footer';
 
 
 const Home = () => {
     return (
-        <div>
-        <Header />
-        <Banner />
-        <HotProducts />
-        <Content />
+        <div className='home'>
+            <Header />
+            <Banner />
+            <HotProducts />
+            <Content />
+            <Explore />
+            <AboutUs />
+            <Footer />
         </div>
     );
 };

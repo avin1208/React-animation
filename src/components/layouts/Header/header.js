@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 // import { Link } from "react-router-dom";
 
@@ -6,8 +6,20 @@ import './header.css';
 
 
 const Header = () => {
+
+    const [Header, setHeader] = useState(false);
+
+    const changeBg = () => {
+        if(window.scrollY >=70) {
+            setHeader(true);
+        } else {
+            setHeader(false)
+        };
+    }
+    window.addEventListener("scroll", changeBg);
+
     return (
-        <div className="header">
+        <div className={Header ? "header2" :"header" }>
             <div className="logo-header">
                 <img src="https://www.gifservice.fr/img/gif-vignette-small/05b060bc472184e54516086d7d75f130/13738-1999-food-fast-food-restaurant-pizza-pizza-hut-1999.gif" alt="iocn" />
             </div>

@@ -3,6 +3,20 @@
     justify-content: space-between;
     background-color: white;
     box-shadow: rgb(0 0 0 / 30%) 0px 3px 5px 0px;
+    position: absolute;
+    height: auto;
+    width: 100%;
+}
+
+.header2{
+    z-index: 50;
+    display: flex;
+   position: fixed;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 30%) 0px 3px 5px 0px;
+    height: auto;
+    width: 100%;
 }
 
 .logo-header{

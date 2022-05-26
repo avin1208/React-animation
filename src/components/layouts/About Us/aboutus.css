@@ -1,0 +1,43 @@
+.aboutus{
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    background-color: #0B0C10;
+    border-radius: 30px;
+}
+.first-about{
+    display: flex;
+}
+
+.first-about-image{
+    text-align: center;
+   
+}
+.aboutus-image{
+    height: 600px;
+    width: 600px;
+    border-radius: 30px;
+}
+.first-about-content{
+   margin-left: 80px;
+}
+
+.first-about-title{
+    font-size: 70px;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: white;
+}
+.first-about-desc{
+    font-size: 20px;
+    color: pink;
+    font-weight: 500;
+}
+.first-about-descs{
+    padding-top: 30px;
+    font-size: 20px;
+    color: pink;
+    font-weight: 500;
+}

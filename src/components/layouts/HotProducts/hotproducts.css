@@ -3,11 +3,32 @@
     margin-top: 25px;
 }
 .title{
-    display: block;
+    display: flex;
     text-align: center;
     overflow: hidden;
     white-space: nowrap; 
-    
+    align-items: center;
+    /* border-width: 1px;
+    border-color: #d9dde3;
+    flex: 1 1 0%;
+    position: relative;
+    content: ""; */
+    top: 2px;
+}
+.title::after,
+.title::before {
+  content: "";
+  border: 1px solid rgb(192, 187, 187);
+  flex: 1;
+}
+
+/* Space on left and right sides of text */
+.title:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.title:not(:empty)::after {
+  margin-left: 0.25em;
 }
 
 h2{

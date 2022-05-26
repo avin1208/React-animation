@@ -1,0 +1,151 @@
+.explore{
+    margin-top: 40px;
+}
+.content-explore{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.our-menu{
+    border: 1px solid #efefef;
+    height: 300px;
+    width: 400px;
+    box-shadow:  5px 5px 5px  lightgray;
+    border-radius: 20px;
+}
+.our-store{
+    border: 1px solid #efefef;
+    height: 300px;
+    width: 400px;
+    margin-left: 30px;
+    box-shadow:  5px 5px 5px 0px lightgray;
+    border-radius: 20px;
+}
+.our-party{
+    border: 1px solid #efefef;
+    height: 300px;
+    width: 400px;
+    margin-left: 30px;
+    box-shadow:  5px 10px 10px 0px lightgray;
+    border-radius: 20px;
+}
+.our-catering{
+    border: 1px solid #efefef;
+    height: 300px;
+    width: 400px;
+    margin-left: 30px;
+    box-shadow:  5px 5px 5px 0px lightgray;
+    border-radius: 20px;
+}
+.menu-icon{
+    text-align: center;
+    margin-top: 25px;
+}
+.store-icon{
+    text-align: center;
+    margin-top: 25px;
+}
+.party-icon{
+    text-align: center;
+    margin-top: 25px;
+}
+.catering-icon{
+    text-align: center;
+    margin-top: 25px;
+}
+.image-explore{
+    height: 90px;
+    width: 70px;
+}
+.menu-title{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu-desc{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2b4547;
+}
+.menu-bottem{
+    padding-top: 7.5px;
+    text-align: center;
+    font-size: 25px;
+    color: #de042e;
+    margin-top: 15px;
+    border-top: 1px dotted #979797;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.store-title{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.store-desc{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2b4547;
+}
+.store-bottem{
+    padding-top: 7.5px;
+    text-align: center;
+    font-size: 25px;
+    color: #de042e;
+    margin-top: 15px;
+    border-top: 1px dotted #979797;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.party-title{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.party-desc{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2b4547;
+}
+.party-bottem{
+    padding-top: 7.5px;
+    text-align: center;
+    font-size: 25px;
+    color: #de042e;
+    margin-top: 15px;
+    border-top: 1px dotted #979797;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.catering-title{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.catering-desc{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2b4547;
+}
+.catering-bottem{
+    padding-top: 7.5px;
+    text-align: center;
+    font-size: 25px;
+    color: #de042e;
+    margin-top: 15px;
+    border-top: 1px dotted #979797;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}

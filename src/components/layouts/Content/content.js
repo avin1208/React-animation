@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import styled, { keyframes } from "styled-components";
 
@@ -6,30 +6,30 @@ import './content.css';
 
 import bounce from "react-animations/lib/bounce";
 
-// import rollIn from "react-animations/lib/roll-in";
-
-// import rollOut from "react-animations/lib/roll-out";
-
-import rotateInDownLeft from "react-animations/lib/rotate-in-down-left";
-
-import rotateInDownRight from "react-animations/lib/rotate-in-down-right";
-
-// import pulse from "react-animations/lib/pulse";
+// import slideInLeft from "react-animations/lib/slide-in-left";
 
 import flash from "react-animations/lib/flash";
 
-const Bounce = styled.div`animation: 4s ${keyframes`${bounce}`} ease`;
-
-const Pulse = styled.div`animation: 2s ${keyframes`${flash}`} ease`;
-
-const RollIn = styled.div`animation: 3s ${keyframes`${rotateInDownLeft}`} ease`;
-
-const RollOut = styled.div`animation: 3s ${keyframes`${rotateInDownRight}`} ease`;
+import rollIn from "react-animations/lib/roll-in";
 
 const Content = () => {
+
+    const [product, setProduct] = useState(false);
+
+    const animation = () => {
+        if (window.scrollY >= 200) {
+            setProduct(true);
+        } else {
+            setProduct(false)
+        };
+    }
+    window.addEventListener("scroll", animation);
     return (
-        <div className="main-content">
-            <div className="content-title">
+        <div>
+        { product &&
+            (
+                <div className="main-content">
+            <div className="title">
                 <Bounce><h1>Products</h1></Bounce>
             </div>
             <div className="content-products">
@@ -84,8 +84,19 @@ const Content = () => {
                     </Pulse>
                 </div>
             </div>
+        </div>)}
         </div>
     );
 };
 
 export default Content;
+
+
+
+const Bounce = styled.div`animation: 4s ${keyframes`${bounce}`} ease`;
+
+const Pulse = styled.div`animation: 2s ${keyframes`${flash}`} ease`;
+
+const RollIn = styled.div`animation: 2s ${keyframes`${rollIn}`} ease`;
+
+const RollOut = styled.div`animation: 2s ${keyframes`${rollIn}`} ease`;
