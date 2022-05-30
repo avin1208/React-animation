@@ -2,7 +2,7 @@
   "name": "react-animation",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://avin1208.github.io/Animation",
+  "homepage": "https://avin1208.github.io/React-animation",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
