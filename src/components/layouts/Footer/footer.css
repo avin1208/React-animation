@@ -62,3 +62,31 @@
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
+.better{
+    padding-top: 40px;
+    display: flex;
+}
+.better-title{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.feedback{
+    border: 1px solid #fff;
+    margin-left: 5px;
+    font-size: 16px;
+    color: black;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.app-store{
+    text-align: center;    
+}
+.app-s{
+    height: 15%;
+    width: 15%;
+}

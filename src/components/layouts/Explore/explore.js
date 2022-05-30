@@ -107,8 +107,8 @@ export default Explore;
 
 
 
-const HeadShake = styled.div`animation: 3s ${keyframes`${fadeInLeft}`} ease`;
+const HeadShake = styled.div`animation: 6s ${keyframes`${fadeInLeft}`} ease`;
 
-const Band = styled.div`animation: 3s ${keyframes`${rubberBand}`} infinite`;
+const Band = styled.div`animation: 6s ${keyframes`${rubberBand}`} ease`;
 
 const Bounce = styled.div`animation: 5s ${keyframes`${bounce}`} ease`;

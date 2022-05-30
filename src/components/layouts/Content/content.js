@@ -95,8 +95,8 @@ export default Content;
 
 const Bounce = styled.div`animation: 4s ${keyframes`${bounce}`} ease`;
 
-const Pulse = styled.div`animation: 2s ${keyframes`${flash}`} ease`;
+const Pulse = styled.div`animation: 5s ${keyframes`${flash}`} ease`;
 
-const RollIn = styled.div`animation: 2s ${keyframes`${rollIn}`} ease`;
+const RollIn = styled.div`animation: 5s ${keyframes`${rollIn}`} ease`;
 
-const RollOut = styled.div`animation: 2s ${keyframes`${rollIn}`} ease`;
+const RollOut = styled.div`animation: 5s ${keyframes`${rollIn}`} ease`;

@@ -43,5 +43,12 @@ img{
     font-size: 16px;
     justify-content: space-between;
     padding: 10px 20px;
+    cursor: pointer;
     color: black;
+}
+
+.nav-list :hover{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
 }
